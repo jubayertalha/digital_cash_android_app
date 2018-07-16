@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/msg"
+        android:icon="@drawable/msg"
+        android:title="Message"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/pp"
+        android:icon="@drawable/pp"
+        android:title="Profile"
+        app:showAsAction="always" />
+
+</menu>

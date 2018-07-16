@@ -1,0 +1,79 @@
+{
+  "project_info": {
+    "project_number": "872470865634",
+    "firebase_url": "https://digital-cash-pro.firebaseio.com",
+    "project_id": "digital-cash-pro",
+    "storage_bucket": "digital-cash-pro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:872470865634:android:2b91419f18cc2ed0",
+        "android_client_info": {
+          "package_name": "com.kawsarkobir2018.ipl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "872470865634-9btbqb16qnnl4f9v3r226qsd7qtgvkni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kawsarkobir2018.ipl",
+            "certificate_hash": "14dd8b3546862d459bcef543d3cbaf8d4467b484"
+          }
+        },
+        {
+          "client_id": "872470865634-8brv3u2g2s28d0l6nbvelj97vkrh3pnl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kawsarkobir2018.ipl",
+            "certificate_hash": "246f619156a296a3a3e30e6f2a3dc2cbf94d4b2f"
+          }
+        },
+        {
+          "client_id": "872470865634-lkocm4ifa0v0kj07bkb83h6dgu5mvad5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kawsarkobir2018.ipl",
+            "certificate_hash": "abbff520dfc4f233e36de7d6a5eb121c8015b7af"
+          }
+        },
+        {
+          "client_id": "872470865634-opofs970vfgnoeqa5brbpg6jdsgkr80t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kawsarkobir2018.ipl",
+            "certificate_hash": "25e608bfc623d88eba18c83b33765b971f558947"
+          }
+        },
+        {
+          "client_id": "872470865634-0jjjeslbindgabk1m3fipc6ren64od57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPlmQOrIRHDuPuln6Vz_CtNKEWfsw9Pqs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "872470865634-0jjjeslbindgabk1m3fipc6ren64od57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

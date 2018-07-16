@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nev_earn_money"
+            android:icon="@drawable/earn"
+            android:title="Earn Money" />
+        <item
+            android:id="@+id/nev_payment"
+            android:icon="@drawable/payment"
+            android:title="Payment Option" />
+        <item
+            android:id="@+id/nav_Refer"
+            android:icon="@drawable/refer"
+            android:title="Refer Option" />
+        <item
+            android:id="@+id/nev_Top"
+            android:icon="@drawable/top"
+            android:title="Top Earner" />
+
+    </group>
+
+    <item android:title="Guide for you">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_user_guide"
+                    android:icon="@drawable/guide"
+                    android:title="User Guide" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_fbP"
+                android:icon="@drawable/wwww"
+                android:title="Website" />
+            <item
+                android:id="@+id/nav_fbG"
+                android:icon="@drawable/fbb"
+                android:title="Facebook Group" />
+            <item
+                android:id="@+id/nav_pvp"
+                android:icon="@drawable/pvp"
+                android:title="Privacy policy" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/contact"
+                android:title="Contact Us" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share"
+                android:title="Share App" />
+            <item
+                android:id="@+id/nav_ratings"
+                android:icon="@drawable/rating"
+                android:title="Rate Us" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,123 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kawsarkobir2018.ipl.TopFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="Top Earners"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center"/>
+
+        <com.google.android.gms.ads.AdView
+            xmlns:ads="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/adView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/header"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-1176560929770024/9223972610">
+        </com.google.android.gms.ads.AdView>
+
+        <!--ca-app-pub-3940256099942544/6300978111-->
+
+        <TextView
+            android:id="@+id/topInfoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:text="Total users: 2334\nYour Position: "
+            android:layout_below="@id/adView3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/uP"
+            android:layout_below="@id/topInfoTextView"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/UtopPosition"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="0"
+                android:textStyle="bold"
+                android:background="@drawable/side_nav_bar"
+                android:textSize="18sp"
+                android:layout_weight="9"/>
+
+            <TextView
+                android:id="@+id/UtopName"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="5"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center_vertical"
+                android:text="Your Name"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/UtopPoint"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:text="Your Point"
+                android:layout_weight="7"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/ttv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/background_dark"
+            android:textSize="20sp"
+            android:text="Top 100 Earners: "
+            android:layout_below="@+id/uP"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ListView
+            android:id="@+id/topListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/ttv"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+        </ListView>
+
+    </RelativeLayout>
+
+</FrameLayout>
